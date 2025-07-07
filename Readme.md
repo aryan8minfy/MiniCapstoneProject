@@ -49,6 +49,15 @@ Data was cleaned to handle:
 - Outliers were removed using IQR-based filtering.
 - Features and target (`adjusted_total_usd`) were split.
 
+### ScreenShot of Correlation Graph
+![CorrelationMatrix](https://github.com/user-attachments/assets/579edc83-0eda-45d6-b9ca-245688693895)
+
+### ScreenShot of Boxplot for outliers
+![Histogram](https://github.com/user-attachments/assets/2fc52cc0-f179-4ec6-8f26-eed4823d2c54)
+
+### ScreenShot of Histogram
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/7f7dfe02-bb81-4e09-9384-f8610f4fdaf4" />
+
 ---
 
 ### 2️⃣ Model Training
