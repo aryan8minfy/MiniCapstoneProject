@@ -158,6 +158,10 @@ Reports were saved as HTML.
   - Model retraining
   - Drift report generation
   - Model versioning
+
+ ### ScreenShot of Airflow
+ ![image](https://github.com/user-attachments/assets/448203e0-cdd0-4d1b-8e2e-cee7a657aefb)
+
 ---
 
 ## 🧩 Technologies Used
