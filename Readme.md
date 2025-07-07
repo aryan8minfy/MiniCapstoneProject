@@ -106,6 +106,13 @@ Reports were saved as HTML.
 *Evidently data drift report*
 `<img width="955" alt="image" src="https://github.com/user-attachments/assets/88ed6ba0-7aaa-4db5-a2a4-d0315ae6a2c9" />
 
+*Model data drift report*
+<img width="934" alt="image" src="https://github.com/user-attachments/assets/e4edfae3-089d-433a-ae81-a6a8677bf781" />
+
+<img width="927" alt="image" src="https://github.com/user-attachments/assets/e24871c7-e299-4fc5-a8e3-2aae809c824d" />
+
+*Concept Drift report*
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/64952727-9ee9-4ab2-a4c7-73f43b52b173" />
 
 ---
 
