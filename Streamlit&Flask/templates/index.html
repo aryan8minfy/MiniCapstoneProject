@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Software Salary Predictor</title>
+</head>
+<body>
+    <h2>💼 Software Salary Prediction</h2>
+    <form action="/predict" method="POST">
+        <label>Job Title:</label>
+        <select name="job_title">
+            <option>Software Engineer</option>
+            <option>Data Scientist</option>
+            <option>Machine Learning Engineer</option>
+        </select><br><br>
+
+        <label>Experience Level:</label>
+        <select name="experience_level">
+            <option>Entry Level</option>
+            <option>Mid Level</option>
+            <option>Senior Level</option>
+            <option>Executive Level</option>
+        </select><br><br>
+
+        <label>Employment Type:</label>
+        <select name="employment_type">
+            <option>Full-time</option>
+            <option>Part-time</option>
+            <option>Contract</option>
+            <option>Internship</option>
+        </select><br><br>
+
+        <label>Company Size:</label>
+        <select name="company_size">
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+        </select><br><br>
+
+        <label>Company Location:</label>
+        <select name="company_location">
+            <option>USA</option>
+            <option>India</option>
+            <option>UK</option>
+            <option>Germany</option>
+        </select><br><br>
+
+        <label>Currency:</label>
+        <select name="currency">
+            <option>USD</option>
+            <option>INR</option>
+            <option>GBP</option>
+            <option>EUR</option>
+        </select><br><br>
+
+        <label>Salary Currency:</label>
+        <select name="salary_currency">
+            <option>USD</option>
+            <option>INR</option>
+            <option>GBP</option>
+            <option>EUR</option>
+        </select><br><br>
+
+        <label>Remote Ratio (%):</label>
+        <input type="number" name="remote_ratio" min="0" max="100" step="1"><br><br>
+
+        <label>Years of Experience:</label>
+        <input type="number" name="years_experience" step="0.5"><br><br>
+
+        <label>Base Salary (USD):</label>
+        <input type="number" name="base_salary" step="0.01"><br><br>
+
+        <label>Bonus (USD):</label>
+        <input type="number" name="bonus" step="0.01"><br><br>
+
+        <label>Stock Options (USD):</label>
+        <input type="number" name="stock_options" step="0.01"><br><br>
+
+        <input type="submit" value="Predict Salary">
+    </form>
+
+    {% if prediction_text %}
+    <h3>{{ prediction_text }}</h3>
+    {% endif %}
+</body>
+</html>
