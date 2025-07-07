@@ -93,7 +93,10 @@ All models were trained in pipelines combining preprocessing (OneHotEncoder + St
 
 
 ---
+### ML Flow ScreenShot
+<img width="954" alt="image" src="https://github.com/user-attachments/assets/1628f8cf-9225-4d54-963a-9bc641e68c89" />
 
+---
 ### 5️⃣ Drift Detection with Evidently AI
 Three drift reports were generated:
 - **Data Drift Report:** Changes in feature distributions.
